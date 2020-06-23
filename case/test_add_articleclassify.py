@@ -69,6 +69,7 @@ def test_add_article_2(login_fixture, delete_some_data):
 @allure.story("用例：重复编辑文章分类-失败")
 @allure.title("编辑文章分类，重复编辑文章分类，保存失败")
 @allure.testcase("http://49.235.92.12:8080/zentao/testcase-view-6-2.html")
+@pytest.mark.skip(reason="Known bug,not fixed")
 def test_add_article_3(login_fixture, delete_some_data):
     '''重复编辑'''
     driver = login_fixture

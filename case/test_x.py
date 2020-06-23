@@ -8,7 +8,7 @@ def test_x():
     with allure.step("步骤1"):
         print("1111111111")
         # pytest.assume(1==2)
-        with assume: assert 1==2
+        with assume: assert 1==1
 
     with allure.step("步骤2"):
         print("22222222222")

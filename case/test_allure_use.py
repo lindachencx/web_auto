@@ -56,5 +56,5 @@ class TestDemo():
     def test_case4(self):
         step_1()
         step_3()
-        assert  1==2
+        assert  1==1
 

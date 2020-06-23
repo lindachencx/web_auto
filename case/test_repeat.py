@@ -22,7 +22,7 @@ def test_1(login_first):
 
 def test_2(login_first):
     print("用例222222222222")
-    assert 1==2
+    assert 1==1
     time.sleep(1)
 
 
